@@ -38,7 +38,6 @@
   },
   "graphql": {
     "apolloMode": true,
-    "schema": "clientapi.json",
     "extendMutation": "ApolloClient.GraphQL_PPX.ExtendMutation",
     "extendQuery": "ApolloClient.GraphQL_PPX.ExtendQuery",
     "extendSubscription": "ApolloClient.GraphQL_PPX.ExtendSubscription",
