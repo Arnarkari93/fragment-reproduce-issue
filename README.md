@@ -6,7 +6,7 @@ When a fragment is fetched along with other fields on a type the build fails wit
 FAILED: src/Graphql-FragmentExperiment.cmj
 
 We've found a bug for you!
-/Users/arnar/gangverk/fragment-experiment/src/Graphql.res
+/Users/arnar/gangverk/fragment-reproduce-issue/src/Graphql.res
 
 The module or file GraphQL_PPX can't be found.
 
