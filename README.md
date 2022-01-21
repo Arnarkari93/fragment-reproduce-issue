@@ -1,3 +1,29 @@
+# Reproduction repo for fragment issue
+
+When a fragment is fetched along with other fields on a type the build fails with an error message (see below). See an reproduction in the [Fruit query in Graphql.res](src/Grahpql.res)
+
+```
+FAILED: src/Graphql-FragmentExperiment.cmj
+
+We've found a bug for you!
+/Users/arnar/gangverk/fragment-experiment/src/Graphql.res
+
+The module or file GraphQL_PPX can't be found.
+
+- If it's a third-party dependency:
+  - Did you list it in bsconfig.json?
+  - Did you run `rescript build` instead of `rescript build -with-deps`
+    (latter builds third-parties)?
+- Did you include the file's directory in bsconfig.json?
+```
+
+## Setup commands:
+
+```
+npm install
+npm start
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

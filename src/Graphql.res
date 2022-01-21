@@ -1,10 +1,6 @@
 @@warning("-20")
 
 %graphql(`
-  fragment ProducingCountries on countries {
-    country
-  }
-
   fragment OtherFruitFields on Fruits {
     family
   }
@@ -13,9 +9,6 @@
     fruits {
       id
       fruit_name
-      producing_countries {
-        ...ProducingCountries
-      }
       ...OtherFruitFields
     }
   }
